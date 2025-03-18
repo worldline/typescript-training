@@ -152,7 +152,7 @@ This can be combined with generics to create powerful types:
 type Pronoun<T> = T extends Person ? "she" | "he" : "it";
 ```
 
-More on that in the next chapter: [Generics](5%20-%20generics.md).
+More on that in the next chapter: [Generics](./generics.md).
 
 ## Exercise
 

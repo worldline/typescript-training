@@ -1,0 +1,11 @@
+Target timing
+Introduction to TypeScript – 1 day training - English
+
+Preamble - 9h30 - 10h (30 min)
+break 15 min
+Types 10h15 - 11h45 (1h30)
+Manipulating types - 13h30 - 15h (1h30)
+Template literals - 15h-15h30 (30 min)
+break 15 min
+Generics - 15h45 - 17h15 (1h30)
+To go deeper 17h15 - 17h30 (15 min)

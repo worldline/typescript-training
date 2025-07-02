@@ -1,5 +1,9 @@
 # Preamble
 
+## Icebreaker
+
+[Do you have the type safe personality ?](https://ladigitale.dev/digiquiz/q/6865413258c21)
+
 ## JavaScript and dynamic typing
 
 In JavaScript, variables are dynamically typed. That means that the type of a variable is determined at runtime, based on the value assigned to it. Moreover, variables can be reassigned to a different type.

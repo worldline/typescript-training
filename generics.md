@@ -89,11 +89,11 @@ getProperty(x, "m");
 
 ## Exercise 1
 
-Follow instructions in the [following playground](https://www.typescriptlang.org/play/?#code/PTAEEFQcwUwOxgJwJYGNQEUCuyBeoBlATwGcAXGAWwChqQJQBHHfZE0SgQwBMZQB7AGahOoEkmQx2Qplillk-OCQB0oAKKdUAC1nzFcUG1Cp+lAA79x3AcLLa+zfUoA0oOmE6H+5hUs4ANqABbGS2oOaIPlbIfsoicDb2fDAAHuYwqBQ2XiQA7kgqHphy5AbsqF6gZJwA1nzJoIL8iJThgogwDWlkbpRYAQrmAXw6-GgwbmSIcsCCgeJuMGSoRfQAKg6dzZ0J+UgVVQBGfOQocFAkbnBYlCeI0oigR-z8I7m09ACMagAiMIJkAhqg5qkQMuxwMoCk8vDZsM44GpiptHKU4hEopYSLFymJtIEggSAG4NUEkTiUBrgvicdiNXIwlzFOEgtGI-GE55EUC8eYDMJpDJZERiaZAqAidiMwqfMAAJjUAGEzMNlmTqRkEnB+DU4uwdiDjNg8CYAnSSLRUOaSOwTfgAN7UUAuvRlJQkABcoCwcFqOrycGdrplD29vv9-EDtFdJg90ywWRaAAonO7lABKUBO2Ox+xsFRp-WgAC8bv1AG5g7mjapQ+wywBtAC6VdjAF8YyHoUgEenU+iDG5Q1mczW48owkDeKlS7XC4OPSpp2kAPKCAeIjNt8fIYTJlezgB8ZYADKPq+OXfm6z2Ho3D8256GdzXOx2uy6dJlalD9ohN3TYc7wvK9OjILBEEMIsDBUUNSxLMsX0vTtL1gMgADEgUCAhTE6ZNQPHUxJ1AOAjj7YsyxvBdEVUEYLnsV9c2I8hSKOFVEE6EUqO0AsYKXQFBiQQCMRLI952-VBfzvESh3LWCRwzFR6KgRjL1jcDIMMAADAASB0yI4riyHbUAwH0siKPKdttKYztUJYsJmFNMsEDyEo8GTRtLzHGt+Lgb0ACIAHUCSnelQS4IFnngAFYnCdYaVwlBfAEUkngAKU4YlOGS5BfAAfkC5kr0iaIcX1b1G0C34iDgSk0DBcwJWK0BAoIPVGrIcEWrcQKMLpCgnjSTIsDiQLmxK8dQyCjrOAUdBuuai5ApQqaXV83N-KCgBJQw8l4nRQCIGBOCeRKMjy1KCXYE54FATp3msCIsCOEJrSIIr1tzMrsVxD0qvlU8vnlNwga+ABmMHgYAFkm9Tu3-b1wflNafIRl1tra0K0F0GRGmaAIAijCUjGlUAcpCGw8k4HkyH4XlMnNXZRDOUmcpQTg3pgL6Mcxcr-uUKq+djQLtJGMJ6qpb0OvOSUywAcnAd6YAV7TipF10xYl0jKRgb02YuOclZVtWNavUXtNl0mpb4RXlYmM3vtjeGrxmtrxeWXXpbFOXjYd1BVfVtHY022MscCvbQAumArt6Y7+CwEwqgtZAoEMG4iYSGxfT5IEYCSBmvB5DnkC5kZuUZ-lBlAPJYm0ROwiwHEjbZkVM6CSTalUc3x1+mJKtARsE0mJoFhgV3prvb15gCcQ0fRq8I9C+aybZF7EGxPh8dBBXiXGbgFaavhopjuPedKrEB-KKrAvWBneB1CgRCOcQ4ED8IlpgVq74Z6c0HmrSJovosgGF5PwKQcAFZhE0lBUUlM5A-wAEK6m0BNZ2iMYRBRQfYVaHZvph1dMvMK4CpCgG0kg0APR4DcEhNpIwFgAg8gvn3K+FUb5D0CpAUu5dt52BpKAShCwGY3XXl-CAvcLZtW4WdMu3NP4CMgMI0AojGjiKQZIi2d8aSQmzoIkQuxGgUipOgvm7suEU1kbwhRWohFzxEXSMRii8GulQs2bctBnK4DgneKySgBx4BoumEgjZTyTTanNBaTUWoeK8T4-8fi4ABO8f5EJXxwko1iSweJMJEnJKCfqRs8pwnay9rbA24ojb21NurLJgTQx5LiakxsENwmz3EHU7xDTFxJKaT0kJcM+o4LQZ0nJvYen5OaQAVhKTIzm8j8YCLsSQBxEVNR8HAIFDx1AWJvBgMpfgUB8noSwvVAIuEWgwAItuMyYAABsZlQB3KAA) for a practice exercise on generics.
+Follow instructions in the [following playground](https://www.typescriptlang.org/play/?#code/PTAEEFQcwUwOxgJwJYGNQEUCuyBeoBlATwGcAXGAWwChqQJQBHHfZE0SgQwBMZQB7AGahOoEkmQx2Qplillk-OCQB0oAKKdUAC1nzFcUG1Cp+lAA79x3AcLLa+zfUoA0oOmE6H+5hUs4ANqABbGS2oOaIPlbIfsoicDb2fDAAHuYwqBQ2XiQA7kgqHphy5AbsqF6gZJwA1nzJoIL8iJThgogwDWlkbpRYAQrmAXw6-GgwbmSIcsCCgeJuMGSoRfQAKg6dzZ0J+UgVVQBGfOQocFAkbnBYlCeI0oigR-z8I7m09ACMagAiMIJkAhqg5qkQMuxwMoCk8vDZsM44GpiptHKU4hEopYSLFymJtIEggSAG4NUEkTiUBrgvicdiNXIwlyfMAAJjUAGEzMNlmTqRkEnB+DU4uwdiDjNg8CYAnSSLRULKSOwpfgAN7UUBavRlJQkABcoCwcFqQrycE12sZB0NxtN-HNtG1Jj10ywWRaAAonLrlABKUAa53O+xsFQ+0WgAC8OtFAG5LcGJaprQ9o6AANoAXQTzoAvk6rdCkAjfd70QY3KmA0Gky7lGEgbxUunQ6oI+UVE20gB5QTlxF+3N15DCT3dlsAPhjAAYa4m61q2ypUyQMxOs+nU8OkwX84WtTpMrUoftEAPfVXi4h54vOmQsIhDB2lCvr9GozHtwuCwvYGQADEgUCAhTE6T1bzrUwG1AOAjlLSMY2XF9lBUEYLnsHdg2g8hYKOLlEE6LJW20MMUNUQFBiQC8MSjSdkxUI9UBPa8aMrWMDDfM8-T9ND4CgTCF2de9H0MAADAASNU4IIoiyDzUAwCkuCEPKPMxKwgtfxwsJmGlGMEDyEo8E9DMF1rJMUMNAAiAB1AlG3pUEuCBZ54ABWJwnWGlQJQXwBFJJ4AClOGJThfOQXwAH5rOZRdImiHFRUNDNrN+Ig4EpNAwXMIEoFi0BrIIEVsrIcE8oK6yALpCgnjSTIsDiaysziutUxs4rOAUdAytyi5rJ-VqtQs4MrMKgBJQw8lInRQCIGBOCebyMgi-yCXYE54FATp3msCIsCOEJFSIGKhuDBLsVxPUUtZGcvlZNxbq+ABmR67oAFhaoSizPQ0ntZQbzO+rUxrsmbdBkRpmgCAIHTyox2FEMKQhsPJOCIap+FAXhFUW2kxGmeGwpQThDpgU7gcxRKruUFLKedayxJGMJMqpQ1ivOKB0wAcnAI6YG5sTYvp7VGeZ2DKRgQ0znhmNef5wXhcXBmxI5+HWb4OW+YmRWzudL7F3awqmeWCW2YJzmee11ABaFwHnRG51Qcm0BlpgVbejm-gsBMKo5WQKBDBuGGEhsY1eEBBAkixrwMeJ5BSZGZ4MYjzgBjCPJYm0b2wiwHELgttAWYGIImNqVQlbrC6YmSzM3UmJoFhgA22uvQ15gCcRAaBxdQfsrqEZBPhzEfbE+Eh0FueJcZuG5nK+Fct2PYp+KsRr8oUus9Ysd4IUKBEI5xDgG3wl6mBKu3oxEjQLr8cEY0sgMbH+CkOBubCESnxEUBkbkSqACFhTaGanrH6MIbKAPsANfMZ1Hbaj7g5Z+UhQBiX-qAHo8BuCQjEkYCwAQMYryrmvJKG9MzWUgPHRO487A0lAGghYWN1pD3nhASuytCoUMWgnMmp9aGQAYaAJhjQz50LYcrLeNJIShzoSIXYjQKRUhAZTI25Cf5cKobwgU9DO6MLpMwkR4BoHal-FmIctA9K4C4jCVSShyx4HDBWPUGYZwtUKp1bqOUKpmIsVYksji4B2MseRDMXxXH-W8SwXxiAbEBJ8cE1krixamw1tLQmBctYKyFhE+xqYYmBIcYiNcz1XEd3ENkyxuT-H5OCZ9Nw1lIHAPKVEvJcT-FrgAKyJM4STHhkNaHaJILopy-I+CGLMdQHCbwYBoX4FAfJ-4gKZQCKBFoMAIJDkUmAAAbIpUAWygA) for a practice exercise on generics.
 
 ## Generic types defaults
 
-Finally, a generic type can have a default value, which will be used if the type is not specified when using the type. Example:
+A generic type can have a default value, which will be used if the type is not specified when using the type. Example:
 
 ```typescript
 type Stack<T = string> = {
@@ -109,38 +109,42 @@ stack1.push(42); // Error: Argument of type '42' is not assignable
 
 function createStack<T = string>(initial: T[] = []): Stack<T>;
 
-const stack = createStack(); // stack is of type Stack<string>
+const stack = createStack(); // stack is of type Stack<string> and is empty
+const numberStack = createStack<number>([1, 2]); // Stack<number> containing [1, 2]
 ```
 
 ## The `infer` keyword
 
-The `infer` keyword is used in conditional types to infer a type from another type. It is also used in generics to infer a type from a value. For example:
+The `infer` keyword is used in conditional types to infer a type from another type. It is also used in generics to infer a type from a value. For example, here is how you can infer the type of an array element:
 
 ```typescript
-type FirstArgument<F> = F extends (
-  first: infer FirstArgument,
-  ...args: any[]
-) => any
-  ? FirstArgument
-  : never;
+type ElementType<A> = A extends (infer E)[] ? E : never;
 
-type T = FirstArgument<typeof String.fromCharCode>; // T === number
+type T = ElementType<string[]>; // T is string
+type U = ElementType<number[]>; // U is number
 ```
 
-In this example, `FirstArgument` is a generic type that takes a function type `F` as a parameter. It checks if `F` is a function that takes at least one argument, and if so, the `infer` keyword is used to extract the type of the first argument from the function type. The `never` keyword is a special type that matches no value at all. It's basically an empty set used to raise an error if the argument passed to `FirstArgument` is not a function with one argument at least.
-
-Here is another example that infers the type of an array element:
+Here is how you can infer the return type of a function:
 
 ```typescript
-type ElementType<T> = T extends (infer U)[] ? U : never;
-
-type A = ElementType<string[]>; // A is string
-type B = ElementType<number[]>; // B is number
+type ReturnType<F> = F extends (...args: any[]) => infer R ? R : never;
+type T = ReturnType<typeof Math.max>; // T is number
 ```
+Or the type of the first argument of a function:
+
+```typescript
+type FirstArg<F> = F extends (first: infer A, ...args: any[]) => any ? A : never;
+
+type T = FirstArg<typeof String.fromCharCode>; // T === number
+```
+
+In this example, `FirstArgument` is a generic type that takes a function type `F` as a parameter. It checks if `F` is a function that takes at least one argument, and if so, the `infer` keyword is used to extract the type of the first argument from the function type.
+
+Note the `never` keywords in the second part of the conditional. It is a special type that matches no value at all. It's basically an empty set used to raise an error if the argument passed to `FirstArgument` is not a function with one argument at least.
 
 ## Exercise 2
 
-Follow instructions in the [following playground](https://www.typescriptlang.org/play/?#code/PQKgUAmg9grg5AJwKYAIC2BDAdhg5gSy1xQxQAd8AvS0gZwBcpkV6ALDekgGy6gHdaKAMYwGUNEgSDGw0YzRVUbJPgTkqNFH1ZIsKJgBNJhYvnpgAguuqkh2FOwBuqWkmcIMXFlDIUigqD0zADowABUdWTEJNTs9IVYoKFcWVmQlHz9cQQw0QOJlFAA2EkcMfC4MACMuVB96fEDaUJBgMDB6AE8yVDDMkxQAXhQ4KowhQLgUAB8RhKQkVynZuB7fSWWRtFE0pLRaTbgoLnxnA5mRwMasA4BuduBgFABhZA5UUi6elAAFDU-2JxkGRkK4sPQcnoMAgPJ1hIF6OUsAMkAAPcb0LhwgDM3l8JloHW6qD+NgeT1eSHeJBQMAaJy6LGJKD6+KIAHkAGakzRsDgoZBCFRnGk8z7M7AGFBgR4CpD0GAIG6pVAwZGBJnfYGg3QNIj6LB1Tkq8jJWj4GoZNnZfTGwoUMlfXr9Dnc-7tJ0oACynTFQxQAG04NtaLtxAcADRzHSLJBwKOrJDrBBwAC6909PtZWUEw2zJi5YoAPD6xQA+W4oWVonpCehIKUyKqoYM7BB7c4reaxw5rHop9oyp4AIQwrilGtIJwYtrxOajyAVSppnsw9ASA08Xnt-2kgOE9mb6AwRi0ZlYKpSjGthM9PzNFtqYsJRO+AEksABlRhCADW-vvWhzUtZ8iwDAAiMYJiwcCo3A7tXFglBwOOU5FiQlD1RucDUzLdpoJnB0aAARgALhQD9vygP9-Qgq4mgwhCkAw1CzhwsACM4IiMAAJnIyif3-YYIKYliTjYuCoMCdjOOsGhsX4r9BNoyDxmkuDRLgkMw32HCqyeIsAFpDJQUNYC4KUsCgTgjzKE4DHJFlIj9MRmHYSEUEITlCDMFwYF8LFZyYg1rkhCdxMWIdvQwX8Pj0Cwygqaon13TUlH3RdFT0QpAOAlKbEEPhz0vVBcWvHMSEEIxOQwGAuE4OyYFQTkmBNfN-HIaFcnlSRX1QBLykqEDd3wpouP+AAWciBqS4aCpUzTkMW+CY0Q1MOLGuSMAAVmmxKhvymhaDAlaFkQrS2w7DCpJg3CVJujDtPbcNGNW5j1tk7iij2wbkqQZ8VPo7CNLe661Nu-SUCMkyzLqyzrJQWzPHwBywCAA)
+Follow instructions in the [following playground](https://www.typescriptlang.org/play/?#code/PQKgUAmg9grg5AJwKYAIC2BDAdhg5gSy1xQxQAd8AvS0gZwBcpkV6ALDekgGy6gHdaKAMYwGUNEgSDGw0YzRVUbJPgTkqNFH1ZIsKJgBNJhYvnpgAguuqkh2FOwBuqWkmcIMXFlDIUigqD0zADowABUdWTEJNTs9IVYoKFcWVmQlHz9cQQw0QOJlFAA2EkcMfC4MACMuVB96fEDaUJBgMDB6AE8yVDDMkxQAXhQ4KowhQLgUAB8RhKQkVynZuB7fSWWRtFE0pLRaTbgoLnxnA5mRwMasA4BuduBgFABhZA5UUi6elAAFDU-2JxkGRkK4sPQcnoMAgPJ1hIF6OUsAMkAAPcb0LhwgDM3l8JloHW6qD+NgeT1eSHeJBQMAaJy6LGJKD6+KIAHkAGakzRsDgoZBCFRnGk8z7M7AGFBgR4CpD0GAIG6pVAwZGBJnfYGg3QNIj6LB1Tkq8jJWj4GoZNnZfTGwoUMlfXr9Dnc-7tJ0oACynTFQxQAG04NtaLtxAcADRzHSLJBwKOrJDrBBwAC6909PtZWUEw2zJi5YoAPD6xQA+W4oWVonpCehIKUyKqoYM7BB7c4reaxw5rHop9oyp4AIQwrilGtIJwYtrxOajyAVSppnsw9ASA08Xnt-2kgOE9mb6AwRi0ZlYKpSjGthM9PzNFtqYsJRO+AEksABlRhCADW-vvWhzUtZ8iwDAAiMYJiwcCo3A7tXFglBwOOU5FiQlD1RucDUzLdpoJnB0aAARgALhQD9vygP9-Qgq4mgwhCkAw1CzhwsACM4IiMAAJnIyif3-YYIKYliTjYuCoMCdjOOsGhsX4r9BNoyDxmkuDRLgkMw32HCqyeIsAFpDJQUNYC4KUsCgTgjzKE4DEHWUvQwX8Pj0Cwygqaon13TUlH3RdFT0QpAOAnybEEPhz1KcpKktOcCXIMdxxIQQyGhXJ5UkQlZQiEl-lMxhmHYSEUEITlCDMFwYF8LFZyYkgsAncTFijWgoEvD5mE8PgME6HJPLi2pGqlMyYAslAj0KIxOQwcbODsmAkFfVAPNi7ykGffCmi4-4ABZyLWryQN84T4JjRCNIu5iroWRDUw4na5IwABWQ7Bo258VPo7DbtjDCpJg1N9JQIyTLGiarJs1A7PwBzZO4op3vWk6IrA8DtPbcMAbUoGyxUwGMMxjtGOumSnu4gB2ZHjvCmhaHRvtJFgzDrloPThOQzTWYYiNwKZhByZuXabAADhpobNt3dHueJ7G+cJvmfvZ3DaOQuXdL57mBb02UwdMxJxss6zJphzw4faIA)
 
 ::: info TRIVIA
 

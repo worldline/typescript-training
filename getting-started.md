@@ -135,3 +135,40 @@ The most important settings for all projects are these ones:
 "es2022" can be replaced with "esnext" if you want to use the latest version of ECMAScript supported by TypeScript. Because ECMAScript evolves over time, this value doesn’t mean the same thing between different TypeScript versions, so usually people prefer to set it as a static value to make upgrades more predictable.
 
 :::
+
+## Checkpoint: run your first TypeScript program
+
+Install the latest version of [Node.js](https://nodejs.org) if you haven't already. [Bun](https://bun.sh) or [Deno](https://deno.land) can also be used, but in this example we will use Node.js.
+
+Then install TypeScript globally so you can use the `tsc` command:
+
+```bash
+npm install -g typescript
+```
+
+Create a file named `hello.ts` with the following content:
+
+```typescript
+const greeting: string = "Hello, TypeScript!";
+console.log(greeting);
+```
+
+Then run the following command to compile it to JavaScript:
+
+```bash
+tsc hello.ts
+```
+
+Look at the generated `hello.js` file in the same folder. It should look like this:
+
+```javascript
+var greeting = "Hello, TypeScript!";
+console.log(greeting);
+```
+
+This generated JavaScript code can be run with Node.js or inside a web browser. But you don't need to compile your TypeScript code to run it with Node.js, Bun or Deno! You can just run the `.ts` file directly:
+
+```bash
+node hello.ts
+```
+

@@ -19,7 +19,9 @@ type MyToppings = ToppingOfPizza<MyPizza>; // expected to be 'mushrooms' | 'chee
 
 // Based on a list of toppings, return a type matching all the pizzas that can be made with these toppings
 type PossiblePizzas<Toppings extends Topping[]> = Toppings[number] extends infer T ? [T, T, T] : never;
-// or type PossiblePizzas<Toppings extends Topping[]> = [Toppings[number],Toppings[number],Toppings[number]]
+// other solutions:
+// type PossiblePizzas<Toppings extends Topping[]> = Toppings extends (infer T)[] ? [T, T, T] : never
+// type PossiblePizzas<Toppings extends Topping[]> = [Toppings[number],Toppings[number],Toppings[number]]
 
 type InStock = PossiblePizzas<["bacon", "cheese", "olives", "onions"]>
 

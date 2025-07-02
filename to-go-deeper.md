@@ -2,12 +2,12 @@
 
 ## Features omitted on purpose
 
-- enums
-- decorators
-- namespaces
-- interfaces
+- [enums](https://www.typescriptlang.org/docs/handbook/enums.html)
+- [decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
+- [namespaces](https://www.typescriptlang.org/docs/handbook/namespaces.html)
+- [interfaces](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces)
 
-These four features have been excluded on purpose from this training, since they are all non-erasable syntax that is rewritten into JavaScript and therefore are not supported by JS runtimes.
+These four features have been excluded on purpose from this training, since they are all **non-erasable syntax** that is rewritten into JavaScript and therefore are not supported by JS runtimes.
 
 Enums are basically sets of constrained named values. They can be useful but also have lots of quirks which gave them a bad reputation in the TypeScript community. They can be replaced by union types or objects used as maps. [More info here](https://www.youtube.com/watch?v=0fTdCSH_QEU)
 

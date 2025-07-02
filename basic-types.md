@@ -163,6 +163,10 @@ let alice = {
 
 When using the `as const` assertion, TypeScript will make properties `readonly` and use literal types. This is useful for defining constants, or immutable objects, and have the most specific type-checking possible.
 
+## Checkpoint
+
+Try fo fill this [crosswords](https://ladigitale.dev/digiquiz/q/68652a1ba7e06) with the new keywords you learned in this chapter !
+
 ## Exercise
 
 Add type annotations to all the variables in the [following code playground](https://www.typescriptlang.org/play/?#code/PTAEEEBNNAXBPADgU1AQwHYYPazbAS2wwGdQAzbAJ3QBtbQA3NKgtAI1uTMxnIFcMAY0LEyBDHAAWqIdkioO2RsgB0AKHVzSsUIirz+IgML5kAc2oFuoALygMyAO6gAyslgAKANoAiclT8BLC+ADSgvirmHhxcYREAtsj4vgC6AJSaQrRoJGQACgaQRroA3uqglaDaJLCBItSeVMjk4UJmlqzc4foEQsjpoOVVI9IEJKrN5HagUxWjlbBS46rtsBZWNvZrG10k8wtLK739MyfIB6AAvuo3WmK6aIiIXDOOLoWGIp6+Ty-I8T8ASCIVS4QADKoAEwAVkyNV0sGwCXw2DezlAn2K318SJRSMB-kCwXikQsMU4ALBoEhAEY4fcdKB2MgWuiPkUSj8WS1CUkUtSAMyqGHgzKM2p6TkmfBoWjYcwzbx-LjhPGo8I88ipLIPUD8EjIGj2YZVDBoJIALlAAHJwLQ+sgbaFLgYuNbfEIDXijfEQNVMMzUJ7vcjfeFftEMCFQNQImhIAkJL5LuxcgBrDzW00LFXIa0ANhdC0WyNR1qhlxudwEwlEkmisAAKrg5YVHZ4DUbBjnZh5+FRJAB5dgAK2QIlUmfgJE7hqoqjTJEzsHSk2Q2OQnk8SLwtHCU0GtgAfENLiMEVKvrp7Ppr6Y9wrVOQJJBPIg7KfEOvprY-33yEyEtqj1ABHfhMEIBAZi7BclxXbwph1YDmlgAdJF3OVQAAaivbFYFUc5QAAKlAcDIOCeAqwhTI7hqbAuFUeVzB+Fs90teJGzYttWH6Odu3SIA)

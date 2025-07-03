@@ -155,7 +155,7 @@ Cela peut être combiné avec les génériques pour créer des types puissants :
 type Pronoun<T> = T extends Person ? "she" | "he" : "it";
 ```
 
-Plus d'informations à ce sujet dans le chapitre suivant : [Génériques](./generics.md).
+Plus d'informations à ce sujet dans le chapitre suivant : [Génériques](./generiques.md).
 
 ## Checkpoint
 

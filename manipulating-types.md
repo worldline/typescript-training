@@ -42,11 +42,14 @@ TypeScript has a powerful type inference system that can narrow the type of a va
 For example, TypeScript can infer the type of a value based on the type of a property:
 
 ```typescript
-type Person = { name: string; age: number };
+type Person = { name?: string; age: number };
 let data: Person | undefined = persons.find((p) => p.name === "Alice");
 if (data !== undefined) {
   // data has been narrowed down to the type Person
-  console.log(data.name.toUpperCase());
+  if(data.name !== undefined) {
+    // data.name has been narrowed down to the type string
+    console.log(data.name.toUpperCase());
+  }
 }
 ```
 
@@ -117,7 +120,7 @@ By itself it is not very useful, but it can be used in combination with other fe
 ```typescript
 let person = { name: "Alice", eyes: "blue", mustache: false } as const;
 
-type PersonFeature = keyof typeof person; // = 'name' | 'age'
+type PersonFeature = keyof typeof person; // = 'name' | 'eyes' | 'mustache'
 ```
 
 ## Indexed access types
@@ -127,7 +130,7 @@ You can use the `[]` operator to create a type that represents the type of a pro
 ```typescript
 type Person = { name: string; age: number };
 type Age = Person["age"]; // = number
-type PersonField = Person[keyof Person]; // = string | number
+type PersonField = Person[keyof Person]; // same as Person[string | number]
 ```
 
 ## Conditional types

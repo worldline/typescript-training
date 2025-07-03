@@ -2,7 +2,7 @@
 
 ## Icebreaker
 
-[Do you have the type safe personality ?](https://ladigitale.dev/digiquiz/q/6865413258c21)
+[Do you have the type safe personality ?](https://ladigitale.dev/digiquiz/q/68669144c9a4b)
 
 ## JavaScript and dynamic typing
 

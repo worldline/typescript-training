@@ -61,9 +61,9 @@ We have already seen this keyword `extends` in the previous chapter with conditi
 In the context of generics, `extends` will give more control to the developer and raise errors if the type does not match the constraint. Here are a few examples:
 
 ```typescript
-type Lengthy = { length: number };
+type HasLength = { length: number };
 
-function longest<A extends Lengthy, B extends Lengthy>(a: A, b: B): A | B {
+function longest<A extends HasLength, B extends HasLength>(a: A, b: B): A | B {
   return a.length >= b.length ? a : b;
 }
 
@@ -71,7 +71,7 @@ longest("string", ["a", "r", "r", "a", "y"]);
 
 longest([1, 2, 3], new Set([4, 5, 6]));
 // Error: Property 'length' is missing in type 'Set<number>'
-// but required in type 'Lengthy'
+// but required in type 'HasLength'
 ```
 
 ```typescript

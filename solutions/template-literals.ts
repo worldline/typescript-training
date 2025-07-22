@@ -1,12 +1,16 @@
-// Create a type Card that matches any string composed of a number followed by a suit (♠️, ♦️, ♣️, ♥️)
+// Create a type Card that matches any string composed of 
+// a number or J/Q/K/A followed by a suit (♠️, ♦️, ♣️, ♥️)
 // for example "3♠️", "J♦️", "A♣️", "10♥️"
 
 type Color = '♠️' | '♥️' | '♣️' | '♦️';
 const colors: Color[] = ['♠️', '♥️', '♣️', '♦️'] as const;
 
-type Card = `${number}${Color}`;
+type CardNumber = 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
+type CardFigure = 'J' | 'Q' | 'K' | 'A';
+type Card = `${CardNumber | CardFigure}${Color}`;
 
-const deck: Card[] = [...range(1, 10), "J", "Q", "K", "A"].flatMap(n => colors.map(color => `${n}${color}` as Card));
+const deck: Card[] = [...range(1, 10), "J", "Q", "K", "A"]
+    .flatMap(n => colors.map(color => `${n}${color}` as Card));
 
 console.log(deck);
 
@@ -22,4 +26,4 @@ function range(start: number, end: number, step = 1): number[] {
 type ArrayOfLength<N extends number, T extends any[] = []> = T['length'] extends N ? T : ArrayOfLength<N, [...T, any]>
 type Increment<N extends number> = [...ArrayOfLength<N>, any]['length']
 type Range<Start extends number, End extends number> = Start extends End ? Start : Start | Range<Increment<Start>, End>;
-type CardFigure = Range<1, 10> | "J" | "Q" | "K" | "A";
+type CardNumberOrFigure = Range<1, 10> | "J" | "Q" | "K" | "A";

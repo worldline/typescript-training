@@ -33,6 +33,18 @@ if (typeof value === "string") {
 }
 ```
 
+## never
+
+`never` is a type that represents a value that is never supposed to exist. For example, it can be used for functions that throw an exception or that never return:
+
+```typescript
+function throwError(message: string): never {
+  throw new Error(message);
+}
+```
+
+In this case, the TypeScript compiler will **always** show an error if you try to use a variable of type `never`. This is therefore the exact opposite of the `any` keyword. This keyword will be a bit more useful when we talk about conditional types later.
+
 ## Arrays, Maps and Sets
 
 Arrays, maps and sets are generic types, which means you can specify the type of their elements:

@@ -33,6 +33,18 @@ if (typeof value === "string") {
 }
 ```
 
+## never
+
+`never` est un type qui représente une valeur qui n'est censée jamais exister. Par exemple, on peut l'utiliser pour les fonctions qui lancent une exception ou qui ne retournent jamais :
+
+```typescript
+function throwError(message: string): never {
+  throw new Error(message);
+}
+```
+
+Dans ce cas, le compilateur TypeScript retournera **toujours** une erreur si vous essayez d'utiliser une variable de type `never`. C'est donc l'exact opposé du mot-clé `any`. Ce mot-clé sera un peu plus utile quand nous parlerons des types conditionnels par la suite.
+
 ## Arrays, Maps et Sets
 
 Les arrays, maps et sets sont des types génériques, ce qui signifie que vous pouvez spécifier le type de leurs éléments :

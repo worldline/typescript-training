@@ -15,7 +15,7 @@ type Price = number | string;
 
 
 /*
-2. Create a generic Book type with the following properties:
+2. Create a Book type with the following properties:
 - title: string
 - authors: an array of Author
 - price: Price
@@ -28,7 +28,7 @@ type Book = {
 }
 
 /*
-3. Then create the different book types that all extend the generic Book type:
+3. Then create the different book types that all extend the main Book type:
 - a PaperbackBook with the following properties:
    - pages: number
 - a EBook with the following properties:
@@ -44,7 +44,7 @@ type Ebook = Book & { fileFormat: "PDF" | "EPUB" | "MOBI", downloadLink: string 
 type AudioBook = Book & { duration: string, narrator: string }
 
 /* 4. Indexed Access Type
-Create an Inventory type that represents a dictionary where keys are ISBN strings (book IDs) and values are any kind of Book. Use an indexed access type to define it.
+Create an Inventory type that represents a dictionary where keys are strings (book IDs) and values are any kind of Book. Use an indexed access type to define it.
 */
 
 type Inventory = { [isbn: string]: PaperbackBook | Ebook | AudioBook }
@@ -81,7 +81,13 @@ For audiobooks, the format is the duration. Therefore, if T is AudioBook, BookFo
 For any other book type, return the "never" type to throw a type error
 */
 
-type BookFormat<T extends Book> = T extends PaperbackBook ? PaperbackBook["pages"] : T extends Ebook ? Ebook["fileFormat"] : T extends AudioBook ? AudioBook["duration"] : never
+type BookFormat<T extends Book> =
+    T extends PaperbackBook ? PaperbackBook["pages"]
+    : T extends Ebook ? Ebook["fileFormat"]
+    : T extends AudioBook ? AudioBook["duration"]
+    : never
+
+type EBookFormat = BookFormat<Ebook> // "PDF" | "EPUB" | "MOBI"
 
 /* 8. Type Narrowing
 Write a function getBookFormat(book) that:

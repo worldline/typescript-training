@@ -130,7 +130,26 @@ Vous pouvez utiliser l'opérateur `[]` pour accéder au type d'une propriété d
 ```typescript
 type Person = { name: string; age: number };
 type Age = Person["age"]; // = number
-type PersonField = Person[keyof Person]; // même chose que Person[string | number]
+type PersonField = Person[keyof Person]; // = string | number ; équivalent à Person["age" | "name"]
+```
+
+Dans l'exemple ci-dessus, nous avons utilisé des types littéraux, mais cela fonctionne pour n'importe quel type :
+
+```typescript
+const users: Person[] = [
+  { name: "Alice", age: 30 },
+  { name: "Bob", age: 25 },
+];
+
+type User = typeof users[number]; // = Person
+type Length = typeof users["length"]; // = number
+
+const userCollection: { size: number, [userId: string]: User } = {
+  alice: { name: "Alice", age: 30 },
+  bob: { name: "Bob", age: 25 },
+};
+
+type UserCollectionValue = userCollection[keyof typeof userCollection]; // = User | number
 ```
 
 ## Types conditionnels

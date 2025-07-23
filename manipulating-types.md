@@ -130,7 +130,26 @@ You can use the `[]` operator to create a type that represents the type of a pro
 ```typescript
 type Person = { name: string; age: number };
 type Age = Person["age"]; // = number
-type PersonField = Person[keyof Person]; // same as Person[string | number]
+type PersonField = Person[keyof Person]; // = string | number ; same as Person["age" | "name"]
+```
+
+In the example above, we used literal types, but it works for any type:
+
+```typescript
+const users: Person[] = [
+  { name: "Alice", age: 30 },
+  { name: "Bob", age: 25 },
+];
+
+type User = typeof users[number]; // = Person
+type Length = typeof users["length"]; // = number
+
+const userCollection: { size: number, [userId: string]: User } = {
+  alice: { name: "Alice", age: 30 },
+  bob: { name: "Bob", age: 25 },
+};
+
+type UserCollectionValue = userCollection[keyof typeof userCollection]; // = User | number
 ```
 
 ## Conditional types

@@ -172,3 +172,32 @@ This generated JavaScript code can be run with Node.js or inside a web browser. 
 node hello.ts
 ```
 
+*Bonus*: change the script content to this:
+
+```typescript
+function greet(message){
+  console.log(message)
+}
+
+greet("Hello, TypeScript!");
+```
+
+Notice how the IDE doesn't show any error for missing type definition for the `message` parameter, but may warn you that it is implicitely resolved as `any` type (more on that later). Now, create a `tsconfig.json` file in the same folder with the following content:
+
+```json
+{
+  "compilerOptions": {
+    "strict": true
+  }
+}
+```
+
+Now the warning becomes an error and the compiler won't let you compile the code until you fix it. You can fix it by adding a type annotation to the `message` parameter:
+
+```typescript
+function greet(message: string){
+  console.log(message);
+}
+```
+
+The strict mode you just enabled is a good practice for all TypeScript projects, as it helps you catch type errors and write safer code. You can learn more about strict mode in the [official documentation](https://www.typescriptlang.org/tsconfig#strict).

@@ -171,3 +171,34 @@ Ce code JavaScript généré peut être exécuté avec Node.js ou dans un naviga
 ```bash
 node hello.ts
 ```
+
+
+*Bonus*: changer le contenu du script en ceci :
+
+```typescript
+function greet(message){
+  console.log(message)
+}
+
+greet("Hello, TypeScript!");
+```
+
+Notez comment l'IDE ne montre pas d'erreur pour le paramètre `message` manquant de type, mais peut vous avertir qu'il est implicitement résolu comme type `any` (nous verrons plus tard de quoi il s'agit). Maintenant, créez un fichier `tsconfig.json` dans le même dossier avec le contenu suivant :
+
+```json
+{
+  "compilerOptions": {
+    "strict": true
+  }
+}
+```
+
+L'avertissement devient maintenant une erreur et le compilateur ne vous laissera pas compiler le code tant que vous ne l'aurez pas corrigé. Vous pouvez le corriger en ajoutant une annotation de type au paramètre `message` :
+
+```typescript
+function greet(message: string){
+  console.log(message);
+}
+```
+
+Le mode strict que vous venez d'activer est une bonne pratique pour tous les projets TypeScript, car il vous aide à attraper les erreurs de type et à écrire un code plus sûr. Vous pouvez en savoir plus sur le mode strict dans la [documentation officielle](https://www.typescriptlang.org/tsconfig#strict).

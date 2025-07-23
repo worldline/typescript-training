@@ -58,6 +58,10 @@ By default, a generic type can work with any type. However, you can restrict the
 
 We have already seen this keyword `extends` in the previous chapter with conditional types. `U extends T` is used to indicate than the type `U` is `T` or a subtype of `T`, i.e. `U` is a valid `T` but is possibly an even more narrowed type. For example, `string extends string` is valid but also `string extends string | number`, or `"literal" extends string`.
 
+```typescript
+type T = "hello" extends string ? true : false; // T = true
+```
+
 In the context of generics, `extends` will give more control to the developer and raise errors if the type does not match the constraint. Here are a few examples:
 
 ```typescript

@@ -58,6 +58,10 @@ Par défaut, un type générique peut prendre n'importe quel type comme paramèt
 
 Nous avons déjà vu ce mot-clé `extends` dans le chapitre précédent avec les types conditionnels. `U extends T` est utilisé pour indiquer que le type `U` est soit `T`, soit un sous-type de `T`, c'est-à-dire que toute valeur de type `U` est également de type `T` , mais toutes les valeurs de type `T` ne sont pas forcément de type `U`. Par exemple, `string extends string` est valide mais aussi `string extends string | number`, ou `"hello" extends string`.
 
+```typescript
+type T = "hello" extends string ? true : false; // T = true
+```
+
 Dans le cadre des génériques, `extends` donnera plus de contrôle au développeur et lèvera des erreurs si le type ne correspond pas à la contrainte. Voici quelques exemples :
 
 ```typescript
